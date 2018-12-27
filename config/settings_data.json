@@ -1,0 +1,638 @@
+{
+  "current": {
+    "color_text": "#3d4246",
+    "color_body_text": "#69727b",
+    "color_sale_text": "#557b97",
+    "color_button": "#557b97",
+    "color_button_text": "#fff",
+    "color_small_button_text_border": "#3d4246",
+    "color_text_field_text": "#000",
+    "color_text_field_border": "#949494",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#fff",
+    "color_image_overlay": "#3d4246",
+    "image_overlay_opacity": 40,
+    "color_borders": "#e8e9eb",
+    "color_body_bg": "#fff",
+    "type_header_font": "work_sans_n6",
+    "type_header_base_size": 26,
+    "type_base_font": "work_sans_n4",
+    "type_base_size": 16,
+    "type_bold_product_titles": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "ここで告知してください",
+          "message_link": "",
+          "color_bg": "#7796a8",
+          "color_text": "#fff"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slideshow-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dafi-top1.jpg",
+              "alignment": "center center",
+              "slide_title": "DAFI 浄水ボトル日本上陸！",
+              "subheading": "DAFIは今なお豊かな自然が残るポーランドで生まれた浄水器ブランドです。",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "slideshow-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6577.jpg",
+              "alignment": "center center",
+              "slide_title": "きれいな水とお出かけしませんか？",
+              "subheading": "いつでもどこでも簡単にきれいなお水が飲める浄水器機能付きのキュートなボトルです。",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slideshow-0",
+          "slideshow-1"
+        ],
+        "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": true,
+          "autorotate_speed": 9
+        }
+      },
+      "featured-collections": {
+        "type": "collection",
+        "settings": {
+          "title": "DAFI　特集コレクション",
+          "collection": "dafi-浄水ボトル",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": true,
+          "show_view_all": false
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/butelka.jpg",
+          "layout": "left",
+          "title": "ポーランドの豊かな自然から生まれたDAFI ご存知ですか？",
+          "text": "<p>DAFIは今なお豊かな自然が残るポーランドで生まれた浄水器ブランド。新しくリリースされた「DAFI（ダフィ） 携帯用浄水ボトル 」は、いつでもどこでも簡単にきれいなお水が飲める浄水器機能付きのキュートなボトルです。<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "メールマガジン"
+            }
+          },
+          "link_list": {
+            "type": "link_list",
+            "settings": {
+              "title": "DAFI JAPAN",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "link_list",
+          "newsletter"
+        ],
+        "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#f5f5f5",
+          "color_footer_text": "#3d4246"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": true,
+          "enable_zoom": true,
+          "enable_payment_button": true,
+          "show_share_buttons": true
+        }
+      },
+      "1545787454169": {
+        "type": "quotes",
+        "blocks": {
+          "1545787454169-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>ジョギングやジムに行く時に愛用しています。<br>持ち運びにもちょうどいいサイズだし、なにより水道水を入れてそのまま持っていけて、美味しいお水が手軽に持っていけるのでとてもいいです。<br>いい買い物ができました！<\/p>",
+              "author": "Yahooショッピングからご購入　A様"
+            }
+          },
+          "1545787454169-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>おいしい水をいつでも飲みたいと思い探していました。<br>この商品の機能（浄水）とデザインが気に入り購入しました。<br>使ってみると・・さらに良い点が、使いやすいと言うか持ちやすい。<br>ボトルのくびれが手にフィットします。<br>言葉では言いずらいのですが、「気持ちがいいんです。」<br>仕事場でもジムでもと毎日使っています。<br>最初から交換用フィルターも買っておいて正解でした。<\/p>",
+              "author": "Amazonからご購入　B様"
+            }
+          },
+          "1545787454169-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>子供とのお出かけ用に購入。<br>色が可愛く、軽いし、ペットボトルサイズなのが良い。<br>くびれ部分があるので持ちやすいし、洗いやすい。<br>今のところ満足度100%です。<\/p>",
+              "author": "Amazonからご購入　Y様"
+            }
+          }
+        },
+        "block_order": [
+          "1545787454169-0",
+          "1545787454169-1",
+          "1545787454169-2"
+        ],
+        "settings": {
+          "title": "お客様の声"
+        }
+      },
+      "1545788589665": {
+        "type": "map",
+        "settings": {
+          "heading": "DAFI JAPAN",
+          "address": "<p>〒213-0024&nbsp;神奈川県川崎市高津区明津30&nbsp;ラフォーレII 101号<\/p>\n<p>定休日：土・日・祝日<\/p>\n<p>営業時間：10-18時<\/p>",
+          "map_address": "神奈川県川崎市高津区明津30",
+          "button_text": "マップを見る",
+          "show_pin": true,
+          "api_key": "",
+          "background_image": "shopify:\/\/shop_images\/foto_09.jpg",
+          "background_image_position": "center center"
+        }
+      },
+      "1545790128165": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_6924.jpg",
+          "layout": "left",
+          "title": "幅広い世代から愛されるDAFI",
+          "text": "<p>DAFI浄水ボトルは軽量でソフトな素材で手にフィットし、持ちやすいのでお子様からお年寄りまで幅広い世代の方にご愛用いただいております。<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1545791480351": {
+        "type": "image-bar",
+        "blocks": {
+          "1545791480351-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_5105a.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1545791480351-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_6004.jpg",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1545791480351-0",
+          "1545791480351-1"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "1545792741325": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/IMG_5276a_46be6a36-17b8-4c90-900a-0e05ef45d799.jpg",
+          "layout": "right",
+          "title": "水道水がいつでも美味しく飲める",
+          "text": "<p>DAFI浄水ボトルがあれば、どこでもお手軽に美味しいお水を飲むことが出来ます。<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "feature-row",
+      "1545792741325",
+      "1545790128165",
+      "1545787454169",
+      "1545791480351",
+      "featured-collections",
+      "1545788589665"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "color_text": "#3d4246",
+      "color_body_text": "#69727b",
+      "color_sale_text": "#557B97",
+      "color_borders": "#e8e9eb",
+      "color_button": "#557B97",
+      "color_button_text": "#fff",
+      "color_small_button_text_border": "#3d4246",
+      "color_text_field": "#fff",
+      "color_text_field_text": "#000",
+      "color_text_field_border": "#949494",
+      "color_image_overlay_text": "#fff",
+      "color_image_overlay": "#3d4246",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#fff",
+      "type_header_font": "work_sans_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "work_sans_n4",
+      "type_base_size": 16,
+      "type_bold_product_titles": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slideshow-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "slideshow-1"
+          ],
+          "settings": {}
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "link_list-1": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "link_list-1",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "feature-row",
+        "slideshow"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "type_bold_product_titles": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "enable_zoom": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "link_list-1": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "link_list-1",
+            "text",
+            "newsletter"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
