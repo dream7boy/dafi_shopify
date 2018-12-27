@@ -51,15 +51,15 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "",
-          "logo_max_width": 100,
+          "logo": "shopify:\/\/shop_images\/dafi_logo_big_4b01175e-b465-40b0-9135-0638d06cb03b.jpg",
+          "logo_max_width": 50,
           "main_linklist": "main-menu",
           "message": false,
           "home_page_only": true,
           "message_text": "ここで告知してください",
           "message_link": "",
           "color_bg": "#7796a8",
-          "color_text": "#fff"
+          "color_text": "#ffffff"
         }
       },
       "slideshow": {
@@ -126,17 +126,17 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "title": "メールマガジン"
-            }
-          },
           "link_list": {
             "type": "link_list",
             "settings": {
               "title": "DAFI JAPAN",
               "menu": "footer"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "メールマガジン"
             }
           }
         },
